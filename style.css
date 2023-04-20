@@ -1,0 +1,635 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set the left side to be fixed */
+.left-side {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 3em;
+  background-color: rgb(88, 26, 146);
+  color: white;
+}
+
+/* 1--------------------------- */
+
+.left-content1 {
+  background-color: rgb(24, 11, 65);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100vh;
+}
+
+.left-wrapper1{
+  margin-left: 70px;
+  margin-bottom: 50px;
+}
+
+.abc {
+  color: white;
+    font-size: 44px;
+}
+
+.abc-p {
+  color: lavender;
+  font-size: 0.9rem;
+}
+
+.abc-case {
+  color: white;
+}
+
+/* 2-------------------- */
+
+.left-content2{
+  background-color: rgb(10, 31, 80);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100vh;
+}
+
+
+/* 3-------------------- */
+
+.left-content3{
+  background-color: rgb(96, 80, 216);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100vh;
+}
+
+/* 4-------------------- */
+.left-content4{
+  background-color: rgb(52, 67, 226);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100vh;
+}
+
+/* 5-------------------- */
+.left-content5{
+  background-color: rgb(39, 18, 113);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100vh;
+}
+
+/* 6-------------------- */
+.left-content6{
+  background-color: rgb(118, 49, 198);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100vh;
+}
+
+
+/* 7-------------------- */
+.left-content7{
+  background-color: rgb(10, 79, 25);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Set the right side to be scrollable */
+.content1 {
+  padding: 20px;
+  background-color: black;
+  /* overflow-y: scroll; */
+  height: 100vh;
+  width: 100vw;
+  /* overflow-x: visible; */
+  /* overflow-y: visible; */
+}
+
+/* Set some styles for the content */
+.content {
+  margin-bottom: 20px;
+}
+
+/* Hide the scroll bar for the right side */
+.right-side::-webkit-scrollbar {
+  width: 0px;
+}
+
+.circle-img1 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  border-radius: 50%;
+}
+
+.circle-img2 {
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  border-radius: 50%;
+}
+
+.circle-img3 {
+  position: absolute;
+  top: 260%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  border-radius: 50%;
+}
+
+
+.circle-img4 {
+  position: absolute;
+  top: 360%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  border-radius: 50%;
+}
+
+.circle-img5 {
+  position: absolute;
+  top: 460%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  border-radius: 50%;
+}
+
+.circle-img6 {
+  position: absolute;
+  top: 560%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  border-radius: 50%;
+}
+
+.circle-img7 {
+  position: absolute;
+  top: 660%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  border-radius: 50%;
+}
+
+.circle-text1 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.redefining1 {
+  color: white;
+}
+
+.ux1 {
+  font-weight: 700;
+  font-size: 43px;
+  color: white;
+}
+
+.ui1 {
+  margin-left: 5em;
+  color: white;
+}
+
+.pizza-img {
+  margin-left: -20px;
+  margin-top: -101px;
+}
+
+.dominos-bread {
+  position: absolute;
+  right: 60px;
+  top: -128px;
+}
+
+.dominos-bread1{
+  position: absolute;
+    top: 500px;
+    right: -60px;
+}
+
+.ux-strategy {
+  position: absolute;
+  right: 170px;
+  top: 91px;
+}
+
+.ux-mob{
+  position: absolute;
+  top: 341px;
+  left: 850px;
+}
+
+
+.image-section{
+    height: 100vh;
+}
+
+/* .section-two{
+    height: 100vh;
+} */
+
+.right-side{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+
+
+/* .content2---------------- */
+
+.content2{
+  padding: 20px;
+  background-color: rgb(27, 50, 121);
+  overflow-y: scroll;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.content2{
+  position: relative;
+}
+
+
+.measure-total-image{
+  position:absolute;
+  position: absolute;
+    top: 115px;
+    left: 127px;
+  
+}
+
+
+.nasa-fitness-image{
+  position: absolute;
+  position: absolute;
+    top: -113px;
+    left: 478px;
+}
+
+
+
+
+/* .content3-------------- */
+
+.content3{
+  padding: 20px;
+  background-color: rgb(20, 37, 94);
+  overflow-y: scroll;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+}
+
+.section-three{
+  position: relative;
+}
+
+.vame-image1{
+  position: absolute;
+  top: -99px;
+  left: 435px;
+}
+
+.vame-image2{
+  position: absolute;
+    top: 280px;
+    left: 141px;
+}
+
+
+
+/* section-4 ------------------------------------ */
+
+.content4{
+  padding: 20px;
+  background-color: rgb(36, 170, 201);
+  overflow-y: scroll;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+}
+
+.section-four{
+  position: relative;
+}
+
+.karavan-social-image{
+  position: absolute;
+  top: -113px;
+  left: 85px;
+}
+
+.social-networking-image{
+  left: 300px;
+    position: absolute;
+    top: -55px;
+
+
+}
+
+.developers-for-social-media-image{
+  position: absolute;
+  top: 190px;
+  left: 510px;
+}
+
+
+.karavan_2-image{
+
+  position: absolute;
+  top: 410px;
+  left: 74px;
+
+}
+
+.karavan-social-networking-image2{
+
+  position: absolute;
+    top: 474px;
+    left: 291px;
+
+}
+
+
+/* section 5  ----------------------- */
+
+
+.content5{
+  padding: 20px;
+  background-color: rgb(174, 154, 23);
+  overflow-y: scroll;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+}
+
+.section-five{
+  position: relative;
+}
+
+.erp-app-development-image{
+  position: absolute;
+  top: -60px;
+  left: -60px;
+}
+
+
+
+/* .content-6 ----------------------------*/
+
+
+.content6{
+  padding: 20px;
+  background-color: rgb(223, 214, 214);
+  overflow-y: scroll;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+}
+
+.section-six{
+  position: relative;
+}
+
+.nexgtv-entertainment-image{
+    position: absolute;
+    top: 80px;
+    left: 80px;
+}
+
+.nexgtv-mobile-app-image{
+    position: absolute;
+    top: 80px;
+    left: 338px;
+}
+
+
+
+/* .content-7 ----------------------------*/
+.content7{
+  padding: 20px;
+  background-color: rgb(37, 194, 61);
+  overflow-y: scroll;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+}
+
+.section-seven{
+  position: relative;
+}
+
+.melltoo-img1{
+   position: absolute;
+   top: 80px;
+   left: 170px;
+}
+
+.melltoo-img2{
+  position: absolute;
+   top: 80px;
+   left: 400px;
+}
+
+
+
+
+
+.circle-text1{
+  position: absolute;
+  top: 40%;
+  left: 45%;
+}
+
+
+.circle-text2{
+  position: absolute;
+  top: 150%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+
+.redefining2 {
+  color: white;
+}
+
+.ux2 {
+  font-weight: 700;
+  font-size: 43px;
+  color: white;
+}
+
+.ui2 {
+  margin-left: 5em;
+  color: white;
+}
+
+
+
+.circle-text3{
+  position: absolute;
+  top: 260%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+
+.redefining3 {
+  color: white;
+}
+
+.ux3 {
+  font-weight: 700;
+  font-size: 43px;
+  color: white;
+}
+
+.ui3 {
+  margin-left: 5em;
+  color: white;
+}
+
+
+
+.circle-text4{
+  position: absolute;
+  top: 360%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+
+.redefining4 {
+  color: white;
+}
+
+.ux4 {
+  font-weight: 700;
+  font-size: 43px;
+  color: white;
+}
+
+.ui4 {
+  margin-left: 5em;
+  color: white;
+}
+
+
+
+.circle-text5{
+  position: absolute;
+  top: 460%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+
+.redefining5 {
+  color: white;
+}
+
+.ux5 {
+  font-weight: 700;
+  font-size: 43px;
+  color: white;
+}
+
+.ui5 {
+  margin-left: 5em;
+  color: white;
+}
+
+
+
+.circle-text6{
+  position: absolute;
+  top: 560%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+
+.redefining6 {
+  color: white;
+}
+
+.ux6 {
+  font-weight: 700;
+  font-size: 43px;
+  color: white;
+}
+
+.ui6 {
+  margin-left: 5em;
+  color: white;
+}
+
+
+
+.circle-text7{
+  position: absolute;
+  top: 660%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+
+.redefining7 {
+  color: white;
+}
+
+.ux7 {
+  font-weight: 700;
+  font-size: 43px;
+  color: white;
+}
+
+.ui7 {
+  margin-left: 5em;
+  color: white;
+}
+
+
+
